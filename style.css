@@ -1,0 +1,35 @@
+*{
+    transition: 1s;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.black{
+    background-color: black;
+}
+.open{
+    display: block;
+}
+.close{
+    opacity: 0;
+}
+.visible{
+   opacity: 1;
+}
+.unvisible{
+    opacity: 0;
+}
+.red{
+    color: red;
+}
+button{
+    height: 50px;
+    border-radius: 50%;
+    background-color:  aqua;
+}
